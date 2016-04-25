@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/iv_ada_right_chat_headimg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/chat_right"/>
+    <TextView
+        android:layout_toLeftOf="@id/iv_ada_right_chat_headimg"
+        android:paddingRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_ada_left_chat_message"
+        android:text="塞德里克女士来电三代福克斯多了速度免费塑料袋 山东鲁能领"/>
+</RelativeLayout>
